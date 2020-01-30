@@ -1,4 +1,5 @@
 // Creating all of the get element by ids
+const welcome = document.getElementById("welcome");
 const start = document.getElementById("start");
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
@@ -68,6 +69,7 @@ start.addEventListener("click", startQuiz);
 
 // function to start the quiz
 function startQuiz() {
+    welcome.style.display = "none";
     start.style.display = "none";
     renderQuestion();
     quiz.style.display = "block";

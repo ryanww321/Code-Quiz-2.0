@@ -12,4 +12,18 @@ body {
     font-variation-settings: "GRAD" 400;
     font-size: 3rem;
 }
+#timer {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-size: 70px;
+    color: red;
+}
 
+h2 {
+    text-align: center;
+}
+
+#start {
+    margin-top: 25px;
+}
